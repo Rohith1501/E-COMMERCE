@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us - My E-Commerce Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My E-Commerce Website</h1>
+		<nav>
+			<ul>
+				<li><a href="E Commerce.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="About Us.html">About Us</a></li>
+				<li><a href="Contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+                <img src="contact us.avif" alt="contact us" width="1000" height="600">
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="subject">Subject:</label>
+				<input type="text" id="subject" name="subject" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; My E-Commerce Website 2023</p>
+	</footer>
+</body>
+</html>
